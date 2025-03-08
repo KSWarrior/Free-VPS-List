@@ -1,0 +1,151 @@
+/* General Styling */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Title */
+.main-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3fff05; /* Light Green */
+    text-shadow: 0 0 10px #3fff05;
+}
+
+/* Hosting Card Container */
+.hosting-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Hosting Card */
+.hosting-card {
+    background-color: #111;
+    border: 2px solid #3fff05;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 15px #3fff05;
+}
+
+.hosting-card:hover {
+    transform: scale(1.05);
+}
+
+/* Hosting Name */
+.hosting-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Hosting Info */
+.hosting-info {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.info-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.online {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #3fff05;
+    font-weight: bold;
+    text-shadow: 0 0 10px #3fff05;
+}
+
+.offline {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    text-shadow: 0 0 10px red;
+}
+
+/* Discord Button */
+.discord-button {
+    background-color: #3fff05;
+    color: black;
+    text-color: black;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px #3fff05;
+}
+
+
+/* Location */
+.location {
+    font-size: 12px;
+    margin-top: 8px;
+    padding: 5px;
+    color: lightgray;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Visit Button */
+.visit-button {
+    background-color: #3fff05;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px #3fff05;
+}
+
+.visit-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #3fff05;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hosting-card {
+        width: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hosting-container {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 600px) {
+    .hosting-card {
+        width: 90%;
+    }
+  }
