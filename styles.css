@@ -15,7 +15,7 @@ body {
 }
 
 /* Hosting Card Container */
-.hosting-container {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
 }
 
 /* Hosting Card */
-.hosting-card {
+.card {
     background-color: #111;
     border: 2px solid #3fff05;
     border-radius: 10px;
@@ -36,19 +36,19 @@ body {
     box-shadow: 0 0 15px #3fff05;
 }
 
-.hosting-card:hover {
+.card:hover {
     transform: scale(1.05);
 }
 
 /* Hosting Name */
-.hosting-name {
+.name {
     font-size: 22px;
     font-weight: bold;
     color: white;
 }
 
 /* Hosting Info */
-.hosting-info {
+.all-info {
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +57,7 @@ body {
     margin-top: 10px;
 }
 
-.info-item {
+.info {
     background: rgba(255, 255, 255, 0.1);
     padding: 5px 10px;
     border-radius: 5px;
